@@ -25,7 +25,7 @@ long long min(long long a, long long b)
 int main()
 {
     humble[1] = 1 ; humble[2] = 2 ; humble[3] = 3 ; humble[4] = 4 ;
-    /*humble number == 2^p1 * 3^p2 * 5^p3 * 7^p4 */
+    /*humble number == 2^p1 * 3^p2 * 5^p3 * 7^p4 打表*/
     int power2 = 1 , power3 = 1, power5 = 1 , power7 = 1 ;
     for(int i = 2 ; i <= 5842 ; i += 1 )
     {
