@@ -5,7 +5,7 @@ int main()
 {
 	int temp;
 	while( scanf("%d%d%d",&capacity_a,&capacity_b,&goal) == 3 )
-    {
+    	{
 		if( capacity_a == 1 )
 		{
 			for(temp = 1 ; temp <= goal ; temp++ )
